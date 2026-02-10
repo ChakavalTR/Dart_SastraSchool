@@ -6,7 +6,7 @@ void main() {
   // print(nameMap);
 
   // //!Convert From List to Set Collections
-  List<String> nameList = ['A', 'B', 'C'];
+  List<String> nameList = ['A', 'B', 'C', 'A'];
   Set<String> nameSet = nameList.toSet();
   print(nameSet);
 
