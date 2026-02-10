@@ -6,7 +6,8 @@ void main() {
   Map<dynamic, dynamic> mm = {};
   int index = 0;
   for (var r in q) {
-    mm[l[index]] = r;
+    var key = l[index];
+    mm[key] = r;
     index++;
   }
   print(mm);
