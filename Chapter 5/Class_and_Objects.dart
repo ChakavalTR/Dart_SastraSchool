@@ -11,8 +11,8 @@ class Car {
     print('Car: $model, Year: $year.');
   }
 }
-//!=============================================
 
+//!=============================================
 //!Inheritance
 class BatteryCar extends Car {
   double battery;
@@ -28,8 +28,8 @@ class BatteryCar extends Car {
     print('Battery Capacity: $battery kWh');
   }
 }
-//!=============================================
 
+//!=============================================
 //!Encapsulation (private)
 class Person {
   String _name; //!Private Property , datatype must be follow below all
@@ -43,8 +43,8 @@ class Person {
   //!Setter   (Setter to set a new name) & set can replace void
   set setName(String newName) => _name = newName;
 }
-//!=============================================
 
+//!=============================================
 //!Polymorphism
 class Animal {
   void makeSound() {
@@ -65,8 +65,8 @@ class Cat extends Animal {
     print('Meow');
   }
 }
-//!=============================================
 
+//!=============================================
 //! Abstract Class
 abstract class Shape {
   void draw() {}
@@ -77,8 +77,8 @@ class Cirle extends Shape {
     print('Drawing a cirle');
   }
 }
-//!=============================================
 
+//!=============================================
 //! Interface class
 class Editable {
   void eat() {
